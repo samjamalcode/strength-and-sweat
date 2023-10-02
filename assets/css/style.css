@@ -22,21 +22,42 @@ body {
 
 h1 {
     font-family: 'Montserrat',sans-serif;
-    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 
 /* Header */
 header {
     background-color: whitesmoke;
-    padding-right: 0 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
     width: 100%;
-
-
 }
+
+
+header a {
+    text-decoration: none;
+    color: inheit;
+}
+
 
 /* Main contern */
 main {
