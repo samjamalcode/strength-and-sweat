@@ -28,6 +28,10 @@ h1, h2, h3{
     font-size: 150%;
 }
 
+.energic-color {
+   color: rgba(231, 76, 60, 1);
+}
+
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -84,10 +88,6 @@ header a {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 
 /* Main contern */
 main {
@@ -111,7 +111,7 @@ main {
     position: absolute;
     bottom: 30px;
     min-height: 200px;
-    width: 80%;
+    width: 90%;
     padding-top: 40px;
     padding-left: 12px;
     border-bottom: 1px solid white;
@@ -179,7 +179,17 @@ main {
 
 /* Large diveces (Desktop and laptop, 992px and up) */ 
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    #menu a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #e74c3c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+     #menu a:hover::after {
+    width:100%;
     }
 }
