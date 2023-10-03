@@ -91,15 +91,24 @@ header a {
 
 /* Main contern */
 main {
-    background-color: lightblue;
+    background-color: #3498db;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social-icons {
+    padding: 20px;
+    text-align: center; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-icons i {
+    font-size: 160%;
+    padding: 5px;
+    color: #e74c3c;
 }
 
 /* Media query: tablets and larger (768px and up) */
