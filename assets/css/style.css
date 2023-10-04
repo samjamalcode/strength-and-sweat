@@ -238,12 +238,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #e74c3c
 }
 
 #social-icons i {
     font-size: 160%;
     padding: 5px;
-    color: #e74c3c;
+    color: white;
+    
     
 }
 
