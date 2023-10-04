@@ -219,7 +219,7 @@ main {
     font-weight: 500;
     letter-spacing: 0;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -231,7 +231,7 @@ main {
 .layer:hover h3 {
     bottom: 49%;
     opacity: 1;
-    letter-spacing: 1rem;
+    letter-spacing: .7rem;
 }
 
 /* Footer */
@@ -269,6 +269,7 @@ main {
     color: #3a3a3a;
     padding: 0 20px;
     text-align: left;
+    line-height: 20px;
 }
 
 /* Media query: tablets and larger (768px and up) */
