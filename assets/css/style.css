@@ -118,8 +118,46 @@ main {
     border-right: 1px solid white;
     border-radius: 0 0 30px 0;
 }
+
 #hero-txt > h2, #hero-txt > h3 {
     color: whitesmoke;
+}
+
+/* Your journey */
+#your-journey {
+    width: 85%;
+    margin: auto; 
+    font-size: 120%;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+#row {
+    display: flex;
+    flex-direction: column; 
+}
+
+#column {
+    flex-basis: 31%;
+    padding: 20px 12px 0 12px;
+    margin-bottom: 5px;
+    
+}
+
+.sub-h {
+    font-size: .8em;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.txt {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding: 10px 20px;
+    line-height: 20px;
+    text-align: left;
 }
 
 /* Footer */
@@ -172,6 +210,26 @@ main {
     #hero-txt {
         width: 350px;
         right: 50px;
+    }
+
+    #row {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #column {
+        flex-basis: 31%;
+        flex: 1;
+        background-color:rgba(231, 76, 60, .4);
+        border-radius: 10px;
+        margin: 20px 5% 5% 20px;
+        transition: .2s;
+    }
+
+    #column:hover {
+        box-shadow: 0 0 5px 0 rgba(231, 76, 60, .6);
     }
 
 
