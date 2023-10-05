@@ -243,9 +243,14 @@ main {
 
 /* Create for columns next to each other */
 .images-column {
-    flex: 25%;
-    max-width: 25%;
+    flex: 100%;
+    max-width: 100%;
     padding: 0 4px;
+}
+
+.images-column img {
+    vertical-align: middle;
+    margin-top: 8px;
 }
 
 
@@ -350,6 +355,12 @@ main {
         box-shadow: 0 0 5px 0 rgba(231, 76, 60, .6);
     }
 
+    /* Gallery */
+    .images-column {
+        max-width: 50%;
+        flex: 50%;
+    }
+
     /* Footer */
     .about-us p {
         color: #3a3a3a;
@@ -374,6 +385,13 @@ main {
     #menu a:hover::after {
         width: 100%;
     }
+
+
+    /* Gallery */
+        .images-column {
+            max-width: 25%;
+                flex: 25%;
+        }
 
     /* Footer */
     .about-us p {
