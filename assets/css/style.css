@@ -96,7 +96,7 @@ header a {
 }
 
 
-/* Main contern */
+/* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -234,6 +234,7 @@ main {
     letter-spacing: .7rem;
 }
 
+<<<<<<< HEAD
 /* Form */
 .contact {
     position: relative;
@@ -344,10 +345,75 @@ resize: none;
     margin-top: 20px;
     padding: 15px 20px;
     border-bottom: 2px solid #252525;
+=======
+/* Gallery */
+.images-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create for columns sits next to each other */
+.images-column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.images-column img {
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+/* Form */
+#contact {
+    background-image: url("../images/signup.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    height: 91vh;  
+}
+
+#contact-form {
+    padding: 30px;
+    color: white;
+    background-color: rgba(60, 60, 60, .6);
+    
+}
+
+#contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.input-style {
+    width: 100%;
+    height: 25px;
+    color: #fafafa;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    background-color: transparent;
+    border-radius: 2;
+    padding: 0 5px;
+}
+
+.cta-btn {
+    font-size: 100%;
+    color: #fafafa;
+    margin-top: 20px;
+    background-color: #454b1b;
+    padding: 15px 32px;
+>>>>>>> fix
     border-radius: 2px;
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> fix
 /* Footer */
 #social-icons {
     padding: 20px;
@@ -448,6 +514,36 @@ resize: none;
         box-shadow: 0 0 5px 0 rgba(231, 76, 60, .6);
     }
 
+    /* Gallery */
+    /* create two columns sits next to each other */
+    .images-column {
+        max-width: 50%;
+        flex: 50%;
+    }
+
+    /* Form */
+    #contact {
+        background-position: center;
+        position: relative;
+        
+    }
+
+    #contact-form {
+        position: absolute;
+        max-width: 400px;
+        top: 150px;
+        left: 10%;
+    }
+
+    .input-style:hover {
+        border-color: #f16c6b;
+    }
+
+    .cta-btn:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
     /* Footer */
     .about-us p {
         color: #3a3a3a;
@@ -471,6 +567,14 @@ resize: none;
 
     #menu a:hover::after {
         width: 100%;
+    }
+
+
+    /* Gallery */
+    /* Create four columns sits next to each other */
+    .images-column {
+        max-width: 25%;
+        flex: 25%;
     }
 
     /* Footer */
