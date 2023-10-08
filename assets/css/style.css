@@ -260,7 +260,7 @@ main {
     background-size: cover;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    height: 87vh;
+    height: 91vh;
     
 }
 
@@ -268,6 +268,7 @@ main {
     padding: 30px;
     color: white;
     background-color: rgba(60, 60, 60, .6);
+    
 }
 
 #contact-form>h2 {
