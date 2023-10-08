@@ -260,8 +260,7 @@ main {
     background-size: cover;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    height: 91vh;
-    
+    height: 91vh;  
 }
 
 #contact-form {
